@@ -4,7 +4,7 @@ import react from "file:///C:/Users/yingz/Desktop/project_3D_developer_portfolio
 var vite_config_default = defineConfig({
   assetsInclude: ["**/*.mp4"],
   plugins: [react()],
-  base: "/",
+  base: "/portfolio-jerry/",
   build: { chunkSizeWarningLimit: 1600 }
 });
 export {
