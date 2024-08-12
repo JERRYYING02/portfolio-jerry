@@ -44,7 +44,11 @@ import portfoliowebsite from "./portfoliowebsite.png"
 import cryptobot from "./cryptobot.png"
 import upcoming from "./upcoming.png"
 import workvideo1 from "./workvideo1.mp4"
+import makethedot from "./makethedot.png"
+import goldsmiths from "./goldsmiths.png"
 export {
+  makethedot,
+  goldsmiths,
   logo,
   backend,
   creator,

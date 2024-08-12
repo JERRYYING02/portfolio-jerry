@@ -1,4 +1,6 @@
 import {
+  makethedot,
+  goldsmiths,
   mobile,
   backend,
   creator,
@@ -132,29 +134,64 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Certifications",
-    company_name: "Obtained",
-    icon: starbucks,
-    iconBg: "#383E56",
-    points: [      
-      "Accenture - Data Analytics and Visualization Virtual Experience Certificate    ",
-      "Alibaba Group – Apsara Cloud Generative AI Certificate",
-      "IBM – Intro DevOps",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Crescendo International College",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "March 2023 - August 2023",
-    points: [
-      "Collaborating with third-party website service provider (First online) to wireframe student management system.",
-      "Designed engaging content, including infographics(banner/poster) Adobe Illustrator, and videos, to drive student engagement.",
-      "Assisted digital marketing efforts, including SEO, SEM(Google Ads), and social media marketing that increased student intake"
-    ],
-  },
+    {
+      title: "Full-stack Software Engineer",
+      company_name: "Make the dot",
+      icon: makethedot,
+      iconBg: "#383E56",
+      points: [      
+        "Production level full-stack experience building collaborative mood boarding canvas in (Angular, TypeScript, JavaScript, Sass, CSS, HTML, GraphQL) featuring keyboard shortcuts for improved UI, artboard customization picker",
+        "Implemented on-page and technical SEO strategies, including optimizing product descriptions, meta tags, and URL structures",
+        "Experienced in fast-paced startup environment running agile sprints using JIRA (with over 50+ ticket resolved) with QA team to ensure software quality and functionality",
+        "Successfully delivered backend for full-text ,fuzzy search engine with OramaSearch, improved overall loading time by 10x quicker.",
+        "Released multi-logic filter (composition, supplier, price) and sorting rank for fabric materials enhancing user search accuracy",
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "Make the dot",
+      icon: makethedot,
+      iconBg: "#383E56",
+      points: [      
+        "Understanding of modules, components, directives, data binding services and dependency Injection, RxJS Observables Lifecycle Hooks, CI/CD",
+        "Integrated multi-user commenting system with backend services using Liveblocks API",
+        "Collaborated with the design team on Figma to develop user-friendly interfaces and ensure responsive across device",
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "Crescendo International College",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "March 2023 - August 2023",
+      points: [
+        "Collaborating with third-party website service provider (First online) to wireframe student management system.",
+        "Designed engaging content, including infographics(banner/poster) Adobe Illustrator, and videos, to drive student engagement.",
+        "Assisted digital marketing efforts, including SEO, SEM(Google Ads), and social media marketing that increased student intake"
+      ],
+    },
+    {
+      title: "Goldsmiths University of London ",
+      company_name: "Obtained",
+      icon: goldsmiths,
+      iconBg: "#383E56",
+      points: [    
+        "BSc (Hons) Computer Science obtained (1st Class Honours) with a Year in Industry",
+        "Relevant Coursework: Algorithm & Data Structure | Web development | Software Design | OOP | Graphics Programming | Databases & Network | Data Mining | Artificial Intelligence | Machine Learning",
+       
+      ],
+    },
+    {
+      title: "Certifications",
+      company_name: "Obtained",
+      icon: starbucks,
+      iconBg: "#383E56",
+      points: [      
+        "Accenture - Data Analytics and Visualization Virtual Experience Certificate    ",
+        "Alibaba Group – Apsara Cloud Generative AI Certificate",
+        "IBM – Intro DevOps",
+      ],
+    },
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",

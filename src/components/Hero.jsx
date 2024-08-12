@@ -7,7 +7,7 @@ import { ComputersCanvas, StarsCanvas } from "./canvas";
 import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import Sidebar from "./Sidebar"; // Import the Sidebar component
-
+import Tech from "./Tech";
 import { workvideo1 } from "../assets";
 
 const Hero = () => {
@@ -16,11 +16,11 @@ const Hero = () => {
   const [typedText3, setTypedText3] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentIndex2, setCurrentIndex2] = useState(0);
-  const originalText = "                          I develop full-stack , AI and data projects. Final year student @ Goldsmiths, University Of London";
-  const originalText2 = "Let me solve your problems";
+  const originalText = "                         Full-stack developer with expertise in both frontend and backend development, creating seamless user experiences.";
+  const originalText2 = "Let’s work together to solve your problems. Feel free to reach out anytime!";
   const typingSpeed = 20;
   const fadeInDelay = 4000; // Delay in milliseconds before fading in the button
-
+ 
   useEffect(() => {
     const interval = setInterval(() => {
       if (currentIndex < originalText.length) {
@@ -61,7 +61,7 @@ const Hero = () => {
     <div className={`relative w-full h-screen mx-auto`}>
       
       <div
-        className={`absolute inset-0 top-[100px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-4`}
+        className={`absolute inset-0 top-[300px]  max-w-8xl mx-auto ${styles.paddingX} flex flex-row items-start gap-4`}
       >
         
         <div className='flex flex-col justify-center items-center mt-5'>
@@ -114,7 +114,7 @@ const Hero = () => {
         </motion.div>
       </div>
      <video
-        className="hidden sm:block absolute top right-0 object-cover w-1/3 h-1/4 mt-20 rounded-lg" // Hide on small screens, show on medium and larger screens
+        className="hidden sm:block absolute top-[220px] right-0 object-cover w-1/3 h-1/4 mt-20 rounded-lg" // Hide on small screens, show on medium and larger screens
         autoPlay
         loop
         muted
@@ -122,9 +122,12 @@ const Hero = () => {
         <source src={workvideo1} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
+      
         <Sidebar />
-        
+       
     </div>
+    
   );
 };
 
