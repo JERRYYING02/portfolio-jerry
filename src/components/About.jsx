@@ -42,7 +42,7 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>About me?</p>
         
-        <h2 className={styles.sectionHeadText}>Not just an ordinary coder.</h2>
+        <h2 className={styles.sectionHeadText}>n ordinary coder.</h2>
 
 
       </motion.div>

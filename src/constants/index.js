@@ -63,11 +63,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Front & Backend  Developer",
+    title: "Backend Developer",
     icon: backend,
   },
   {
@@ -187,7 +187,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Jerry was hardworking and has a good attitude towards his work",
+      "Jerry was one of those guys who always went above and beyond. He didn’t just show up to work; he really cared about what he was doing. Even when things got tough, he’d still be there, putting in the effort without complaining. ",
     name: "Aaron",
     designation: "Head Manager",
     company: "Vivo Sdn Bhd",
@@ -195,7 +195,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "He has an artistic sense to create beautiful designs for clients",
+      "He has an artistic sense to create beautiful user interface designs for clients",
     name: "Alicia",
     designation: "Marketing Executive",
     company: "Crescendo International College",
@@ -203,7 +203,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "He has always been eager to learn more and to explore new technologies and methodologies,taking initiative to read and research on his own, which is a clear indication of their passion for the field. ",
+      "He has always been eager to learn more and to explore new technologies and methodologies,taking initiative to read and research on his own, which is a clear indication of his passion for the field. ",
     name: "Simon Loh",
     designation: "Dean School Of Computing Crescendo International College",
     company: "",
