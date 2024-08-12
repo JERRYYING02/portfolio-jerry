@@ -274,7 +274,7 @@ const projects = [
       },
       
     ],
-    image: makethedot1,
+    image: makethedotshow1,
     source_code_link: "https://github.com/JERRYYING02",
     eye_link:"https://www.instagram.com/p/C8KQlgpPjTA/",
   },
