@@ -46,7 +46,9 @@ import upcoming from "./upcoming.png"
 import workvideo1 from "./workvideo1.mp4"
 import makethedot from "./makethedot.png"
 import goldsmiths from "./goldsmiths.png"
+import makethedotshow1 from "./makethedotshow1.png"
 export {
+  makethedotshow1,
   makethedot,
   goldsmiths,
   logo,

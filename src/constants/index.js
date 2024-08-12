@@ -35,7 +35,8 @@ import {
   portfoliowebsite,
   cryptobot,
   upcoming,
-  whizzit
+  whizzit,
+  makethedotshow1,
 } from "../assets";
 
 export const navLinks = [
@@ -249,6 +250,34 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "MTD© Fabric library",
+    description:
+      "Successfully delivered backend for full-text ,fuzzy search engine with OramaSearch, improved overall loading time by 10x quicker.Released multi-logic filter (composition, supplier, price) and sorting rank for fabric materials enhancing user search accuracy. Integrated multi-user commenting system with backend services using Liveblocks API",
+   
+      tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Sass",
+        color: "yellow-text-gradient",
+      },
+      
+    ],
+    image: makethedot1,
+    source_code_link: "https://github.com/JERRYYING02",
+    eye_link:"https://www.instagram.com/p/C8KQlgpPjTA/",
+  },
   {
     name: "Whizzit",
     description:
