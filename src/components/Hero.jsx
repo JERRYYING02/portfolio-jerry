@@ -61,7 +61,7 @@ const Hero = () => {
     <div className={`relative w-full h-screen mx-auto`}>
       
       <div
-        className={`absolute inset-0 top-[150px]  max-w-8xl mx-auto ${styles.paddingX} flex flex-row items-start gap-4`}
+        className={`absolute inset-0 top-[100px]  max-w-8xl mx-auto ${styles.paddingX} flex flex-row items-start gap-4`}
       >
         
         <div className='flex flex-col justify-center items-center mt-5'>
@@ -114,7 +114,7 @@ const Hero = () => {
         </motion.div>
       </div>
      <video
-        className="hidden sm:block absolute top-[160px] right-0 object-cover w-1/3 h-1/4 mt-20 rounded-lg" // Hide on small screens, show on medium and larger screens
+        className="hidden sm:block absolute top-[130px] right-0 object-cover w-1/3 h-1/4 mt-20 rounded-lg" // Hide on small screens, show on medium and larger screens
         autoPlay
         loop
         muted
