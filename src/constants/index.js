@@ -303,7 +303,7 @@ const projects = [
     ],
     image: whizzit,
     source_code_link: "https://github.com/JERRYYING02/lms-fyp",
-    eye_link:"https://lms-fyp.vercel.app/",
+    eye_link:"https://www.youtube.com/watch?v=hkyILcY4ILQ",
   },
   {
     name: "Malaysian Deli",
