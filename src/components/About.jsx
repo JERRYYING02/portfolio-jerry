@@ -47,9 +47,11 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
         >
-          As a former software engineer at a 500 Global startup, I've developed
-          and deployed full-stack applications that have scaled to meet high
-          demand.
+          Currently based in the UK, gaining valuable international experience
+          in both academic and professional settings. As a former software
+          engineer at a 500 Global startup, I've developed and deployed
+          full-stack applications that have scaled to meet high demand. I spend
+          my free time learning new technologies and building side projects.
         </motion.p>
 
         <div className="flex flex-col items-center mt-7 mb-5">
