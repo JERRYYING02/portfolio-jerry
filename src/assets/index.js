@@ -36,18 +36,24 @@ import myblog from "./myblog.png";
 import resumeIcon from "./resume.jpg";
 import githubIcon from "./githubicon.png";
 import linkedinIcon from "./linkedin.png";
-import whizzit from "./whizzit.png"
-import malaysiandeli from "./malaysiandeli.png"
-import plantdcs from "./plantdcs.png"
-import socialhut from "./socialhut.jpeg"
-import portfoliowebsite from "./portfoliowebsite.png"
-import cryptobot from "./cryptobot.png"
-import upcoming from "./upcoming.png"
-import workvideo1 from "./workvideo1.mp4"
-import makethedot from "./makethedot.png"
-import goldsmiths from "./goldsmiths.png"
-import makethedotshow1 from "./makethedotshow1.png"
+import whizzit from "./whizzit.png";
+import malaysiandeli from "./malaysiandeli.png";
+import plantdcs from "./plantdcs.png";
+import socialhut from "./socialhut.jpeg";
+import portfoliowebsite from "./portfoliowebsite.png";
+import cryptobot from "./cryptobot.png";
+import upcoming from "./upcoming.png";
+import workvideo1 from "./workvideo1.mp4";
+import makethedot from "./makethedot.png";
+import goldsmiths from "./goldsmiths.png";
+import makethedotshow1 from "./makethedotshow1.png";
+import blippi from "./blippi.png";
+import pedia from "./pedia.png";
+import diy from "./diy.png";
 export {
+  blippi,
+  pedia,
+  diy,
   makethedotshow1,
   makethedot,
   goldsmiths,
@@ -93,7 +99,5 @@ export {
   portfoliowebsite,
   cryptobot,
   upcoming,
-  workvideo1
-  
-  
+  workvideo1,
 };
