@@ -37,6 +37,9 @@ import {
   upcoming,
   whizzit,
   makethedotshow1,
+  blippi,
+  pedia,
+  diy,
 } from "../assets";
 
 export const navLinks = [
@@ -55,9 +58,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  }
-
- 
+  },
 ];
 
 const services = [
@@ -135,64 +136,63 @@ const technologies = [
 ];
 
 const experiences = [
-    {
-      title: "Full-stack Software Engineer",
-      company_name: "Make the dot",
-      icon: makethedot,
-      iconBg: "#383E56",
-      points: [      
-        "Production level full-stack experience building collaborative mood boarding canvas in (Angular, TypeScript, JavaScript, Sass, CSS, HTML, GraphQL) featuring keyboard shortcuts for improved UI, artboard customization picker",
-        "Implemented on-page and technical SEO strategies, including optimizing product descriptions, meta tags, and URL structures",
-        "Experienced in fast-paced startup environment running agile sprints using JIRA (with over 50+ ticket resolved) with QA team to ensure software quality and functionality",
-        "Successfully delivered backend for full-text ,fuzzy search engine with OramaSearch, improved overall loading time by 10x quicker.",
-        "Released multi-logic filter (composition, supplier, price) and sorting rank for fabric materials enhancing user search accuracy",
-      ],
-    },
-    {
-      title: "Software Engineer Intern",
-      company_name: "Make the dot",
-      icon: makethedot,
-      iconBg: "#383E56",
-      points: [      
-        "Understanding of modules, components, directives, data binding services and dependency Injection, RxJS Observables Lifecycle Hooks, CI/CD",
-        "Integrated multi-user commenting system with backend services using Liveblocks API",
-        "Collaborated with the design team on Figma to develop user-friendly interfaces and ensure responsive across device",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Crescendo International College",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "March 2023 - August 2023",
-      points: [
-        "Collaborating with third-party website service provider (First online) to wireframe student management system.",
-        "Designed engaging content, including infographics(banner/poster) Adobe Illustrator, and videos, to drive student engagement.",
-        "Assisted digital marketing efforts, including SEO, SEM(Google Ads), and social media marketing that increased student intake"
-      ],
-    },
-    {
-      title: "Goldsmiths University of London ",
-      company_name: "Obtained",
-      icon: goldsmiths,
-      iconBg: "#383E56",
-      points: [    
-        "BSc (Hons) Computer Science obtained (1st Class Honours) with a Year in Industry",
-        "Relevant Coursework: Algorithm & Data Structure | Web development | Software Design | OOP | Graphics Programming | Databases & Network | Data Mining | Artificial Intelligence | Machine Learning",
-       
-      ],
-    },
-    {
-      title: "Certifications",
-      company_name: "Obtained",
-      icon: starbucks,
-      iconBg: "#383E56",
-      points: [      
-        "Accenture - Data Analytics and Visualization Virtual Experience Certificate    ",
-        "Alibaba Group – Apsara Cloud Generative AI Certificate",
-        "IBM – Intro DevOps",
-      ],
-    },
+  {
+    title: "Full-stack Software Engineer",
+    company_name: "Make the dot",
+    icon: makethedot,
+    iconBg: "#383E56",
+    points: [
+      "Production level full-stack experience building collaborative mood boarding canvas in (Angular, TypeScript, JavaScript, Sass, CSS, HTML, GraphQL) featuring keyboard shortcuts for improved UI, artboard customization picker",
+      "Implemented on-page and technical SEO strategies, including optimizing product descriptions, meta tags, and URL structures",
+      "Experienced in fast-paced startup environment running agile sprints using JIRA (with over 50+ ticket resolved) with QA team to ensure software quality and functionality",
+      "Successfully delivered backend for full-text ,fuzzy search engine with OramaSearch, improved overall loading time by 10x quicker.",
+      "Released multi-logic filter (composition, supplier, price) and sorting rank for fabric materials enhancing user search accuracy",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Make the dot",
+    icon: makethedot,
+    iconBg: "#383E56",
+    points: [
+      "Understanding of modules, components, directives, data binding services and dependency Injection, RxJS Observables Lifecycle Hooks, CI/CD",
+      "Integrated multi-user commenting system with backend services using Liveblocks API",
+      "Collaborated with the design team on Figma to develop user-friendly interfaces and ensure responsive across device",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Crescendo International College",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "March 2023 - August 2023",
+    points: [
+      "Collaborating with third-party website service provider (First online) to wireframe student management system.",
+      "Designed engaging content, including infographics(banner/poster) Adobe Illustrator, and videos, to drive student engagement.",
+      "Assisted digital marketing efforts, including SEO, SEM(Google Ads), and social media marketing that increased student intake",
+    ],
+  },
+  {
+    title: "Goldsmiths University of London ",
+    company_name: "Obtained",
+    icon: goldsmiths,
+    iconBg: "#383E56",
+    points: [
+      "BSc (Hons) Computer Science obtained (1st Class Honours) with a Year in Industry",
+      "Relevant Coursework: Algorithm & Data Structure | Web development | Software Design | OOP | Graphics Programming | Databases & Network | Data Mining | Artificial Intelligence | Machine Learning",
+    ],
+  },
+  {
+    title: "Certifications",
+    company_name: "Obtained",
+    icon: starbucks,
+    iconBg: "#383E56",
+    points: [
+      "Accenture - Data Analytics and Visualization Virtual Experience Certificate    ",
+      "Alibaba Group – Apsara Cloud Generative AI Certificate",
+      "IBM – Intro DevOps",
+    ],
+  },
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
@@ -220,7 +220,6 @@ const experiences = [
   //   ],
   // },
 ];
-
 
 const testimonials = [
   {
@@ -251,11 +250,94 @@ const testimonials = [
 
 const projects = [
   {
-    name: "MTD© Fabric library",
+    name: "www.diy.org",
+    description:
+      "Built and maintained kid's educational platform with 5,000+ courses and DIY learning activities and integrated social learning components in Next,js,React, Typescript, TailwindCSS, GraphQL (resulting current 35k+ organic traffic SEO and initiated free trial and annual revenue) Optimized SQL query development, database modeling, and setup cron jobs, indexing. Written automated end-to-end test cases using Cypress, Github Actions to validate user journeys and critical workflows",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: diy,
+    eye_link: "https://www.diy.org",
+  },
+  {
+    name: "Blippi Curiosity Image Recognition Mobile App",
+    description:
+      "Took ownership of completing frontend of image recognition object-hunting game for Netflix series Blippi Entertainment. Shipped mobile app with progressive web app Capacitor for Android and IOS.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Capacitor",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Python FastAPI",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "HuggingFace",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: blippi,
+    eye_link: "https://astrosafe.co",
+  },
+  {
+    name: "AstroSafe @ Safe Search & Astropedia",
+    description:
+      "Developed AstroSafe's Safe Search integration with Astropedia, a safe Wikipedia-like encyclopedia for kids",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: pedia,
+    source_code_link: "https://astrosafe.co",
+    eye_link: "",
+  },
+  {
+    name: "Make the dot (500 Global Venture Capitalist)@ Fabric library",
     description:
       "Successfully delivered backend for full-text ,fuzzy search engine with OramaSearch, improved overall loading time by 10x quicker.Released multi-logic filter (composition, supplier, price) and sorting rank for fabric materials enhancing user search accuracy. Integrated multi-user commenting system with backend services using Liveblocks API",
-   
-      tags: [
+    tags: [
       {
         name: "Angular",
         color: "blue-text-gradient",
@@ -272,11 +354,10 @@ const projects = [
         name: "Sass",
         color: "yellow-text-gradient",
       },
-      
     ],
     image: makethedotshow1,
     source_code_link: "https://github.com/JERRYYING02",
-    eye_link:"https://www.instagram.com/p/C8KQlgpPjTA/",
+    eye_link: "https://www.instagram.com/p/C8KQlgpPjTA/",
   },
   {
     name: "Whizzit",
@@ -299,11 +380,10 @@ const projects = [
         name: "OpenAI",
         color: "yellow-text-gradient",
       },
-      
     ],
     image: whizzit,
     source_code_link: "https://github.com/JERRYYING02/lms-fyp",
-    eye_link:"https://www.youtube.com/watch?v=hkyILcY4ILQ",
+    eye_link: "https://www.youtube.com/watch?v=hkyILcY4ILQ",
   },
   {
     name: "Malaysian Deli",
@@ -325,7 +405,7 @@ const projects = [
     ],
     image: malaysiandeli,
     source_code_link: "https://github.com/JERRYYING02/malaysian-deli-ecommerce",
-    eye_link:"https://malaysian-deli-ecommerce.vercel.app/",
+    eye_link: "https://malaysian-deli-ecommerce.vercel.app/",
   },
   {
     name: "Wripts",
@@ -351,7 +431,7 @@ const projects = [
     ],
     image: myblog,
     source_code_link: "https://github.com/JERRYYING02/dnw-gs-mini-project",
-    eye_link:"https://mini-project-jerry.onrender.com/",
+    eye_link: "https://mini-project-jerry.onrender.com/",
   },
   {
     name: "Social Hut",
@@ -373,7 +453,7 @@ const projects = [
     ],
     image: socialhut,
     source_code_link: "https://github.com/JERRYYING02/socialhut",
-    eye_link:"https://socialhut123.vercel.app/",
+    eye_link: "https://socialhut123.vercel.app/",
   },
   {
     name: "QualityFare",
@@ -395,7 +475,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/JERRYYING02/ASP_team72",
-    eye_link:"https://exp2.deylkqii2lnv.amplifyapp.com/",
+    eye_link: "https://exp2.deylkqii2lnv.amplifyapp.com/",
   },
   {
     name: "3D Portfolio Website",
@@ -417,7 +497,7 @@ const projects = [
     ],
     image: portfoliowebsite,
     source_code_link: "https://github.com/JERRYYING02/socialhut",
-    eye_link:"https://socialhut123.vercel.app/",
+    eye_link: "https://socialhut123.vercel.app/",
   },
   {
     name: "Travel Advisor App",
@@ -439,7 +519,7 @@ const projects = [
     ],
     image: upcoming,
     source_code_link: "https://github.com/JERRYYING02/ASP_team72",
-    eye_link:"https://exp2.deylkqii2lnv.amplifyapp.com/",
+    eye_link: "https://exp2.deylkqii2lnv.amplifyapp.com/",
   },
   {
     name: "Movie Data Analysis",
@@ -462,11 +542,11 @@ const projects = [
         name: "beautifulSoup",
         color: "yellow-text-gradient",
       },
-      
     ],
     image: carrent,
     source_code_link: "https://github.com/JERRYYING02/Movie-Data-Analysis",
-    eye_link:"https://colab.research.google.com/drive/1mJKSTyUOs9hJFh0CkYSoXe1-aGw9_Yyh",
+    eye_link:
+      "https://colab.research.google.com/drive/1mJKSTyUOs9hJFh0CkYSoXe1-aGw9_Yyh",
   },
   {
     name: "CryptoCurrency Bot ",
@@ -484,7 +564,7 @@ const projects = [
     ],
     image: cryptobot,
     source_code_link: "https://github.com/JERRYYING02/CryptoBot",
-    eye_link:"https://github.com/JERRYYING02/CryptoBot",
+    eye_link: "https://github.com/JERRYYING02/CryptoBot",
   },
   {
     name: "Pixel mini-game ",
@@ -506,13 +586,12 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/JERRYYING02/Pixelminigame",
-    eye_link:"https://jerryying02.github.io/PixelMiniGame/",
+    eye_link: "https://jerryying02.github.io/PixelMiniGame/",
   },
-  
+
   {
     name: "GPT Clone Website",
-    description:
-      "A GPT clone website with openAI API codex integration,forked",
+    description: "A GPT clone website with openAI API codex integration,forked",
     tags: [
       {
         name: "OpenAI",
@@ -529,7 +608,7 @@ const projects = [
     ],
     image: gptclonewebsite,
     source_code_link: "https://github.com/JERRYYING02/project_openai_codex",
-    eye_link:"https://project-openai-codex-pied.vercel.app/",
+    eye_link: "https://project-openai-codex-pied.vercel.app/",
   },
   {
     name: "Music Visualizer",
@@ -551,7 +630,7 @@ const projects = [
     ],
     image: visualizer,
     source_code_link: "https://github.com/JERRYYING02/MusicVisualizer",
-    eye_link:"https://jerryying02.github.io/MusicVisualizer/",
+    eye_link: "https://jerryying02.github.io/MusicVisualizer/",
   },
   {
     name: "Arduino & Esp32 Plant Watering System",
@@ -573,12 +652,11 @@ const projects = [
       {
         name: "PHP,SQL",
         color: "yellow-text-gradient",
-      }
-   
+      },
     ],
     image: plantdcs,
     source_code_link: "https://github.com/JERRYYING02/MusicVisualizer",
-    eye_link:"https://jerryying02.github.io/MusicVisualizer/",
+    eye_link: "https://jerryying02.github.io/MusicVisualizer/",
   },
 ];
 
