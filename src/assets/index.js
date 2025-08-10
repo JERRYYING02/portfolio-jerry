@@ -50,7 +50,9 @@ import makethedotshow1 from "./makethedotshow1.png";
 import blippi from "./blippi.png";
 import pedia from "./pedia.png";
 import diy from "./diy.png";
+import astro from "./astro.png";
 export {
+  astro,
   blippi,
   pedia,
   diy,

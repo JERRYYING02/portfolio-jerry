@@ -40,6 +40,7 @@ import {
   blippi,
   pedia,
   diy,
+  astro,
 } from "../assets";
 
 export const navLinks = [
@@ -136,6 +137,22 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Frontend Engineer",
+    company_name: "AstroSafe",
+    icon: astro,
+    iconBg: "#383E56",
+    points: [
+      "Built and maintained a kid's educational platform with 5,000+ courses and DIY learning activities, integrating social learning components using Next.js, React, TypeScript, TailwindCSS, and GraphQL (resulting in 35k+ organic SEO traffic and driving free trial signups and annual revenue).",
+      "Developed and deployed RESTful APIs with FastAPI; took ownership of completing the frontend for an image recognition object-hunting game for Netflix's Blippi Entertainment. Shipped a mobile app as a progressive web app (PWA) using Capacitor for Android and iOS.",
+      "Integrated with GraphQL APIs to fetch, manage, and display interlinked courses, skills, and challenge activities for kids, and created a custom UI for a kid’s AI homework agent application.",
+      "Migrated a React application to Next.js and from MaterialUI to TailwindCSS, achieving performance gains through pre-rendering and code splitting for better load times and smoother navigation (increasing Lighthouse metrics to the 90th percentile).",
+      "Wrote automated end-to-end test cases using Cypress and GitHub Actions to validate user journeys and critical workflows.",
+      "Streamlined Keycloakify setup and configuration for single sign-on (SSO) and federated identity management.",
+      "Collaborated closely with UI/UX designers to create pixel-perfect, responsive layouts, ensuring a high-quality user interface.",
+      "Utilized Docker to containerize Python/FastAPI applications, ensuring consistent development and deployment environments. Used DBeaver and Knex for optimizing SQL query development, database modeling, and setting up cron jobs and indexing.",
+    ],
+  },
   {
     title: "Full-stack Software Engineer",
     company_name: "Make the dot",
@@ -289,19 +306,19 @@ const projects = [
       },
       {
         name: "TailwindCSS",
-        color: "yellow-text-gradient",
+        color: "purple-text-gradient",
       },
       {
         name: "Capacitor",
-        color: "yellow-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "Python FastAPI",
-        color: "yellow-text-gradient",
+        color: "red-text-gradient",
       },
       {
         name: "HuggingFace",
-        color: "yellow-text-gradient",
+        color: "indigo-text-gradient",
       },
     ],
     image: blippi,
