@@ -41,6 +41,7 @@ import {
   pedia,
   diy,
   astro,
+  viator,
 } from "../assets";
 
 export const navLinks = [
@@ -241,31 +242,56 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Jerry was one of those guys who always went above and beyond. He didn’t just show up to work; he really cared about what he was doing. Even when things got tough, he’d still be there, putting in the effort without complaining. ",
-    name: "Aaron",
-    designation: "Head Manager",
-    company: "Vivo Sdn Bhd",
+      "The journey of a programmer is a lifelong pursuit of knowledge. I embrace curiosity and growth, knowing that 'The more I learn, the more I realize how much I don't know.' Love the process",
+    name: "Programming!",
+    designation: "Being a programmer",
+    company: "The process",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "He has an artistic sense to create beautiful user interface designs for clients",
-    name: "Alicia",
-    designation: "Marketing Executive",
-    company: "Crescendo International College",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I love going out and socializing with other developers at hackathons. It's a great way to learn, collaborate, and stay inspired. Contact me anytime for idea collaborations!",
+    name: "Outside work",
+    designation: " Interest",
+    company: "Myself",
+    image: "https://randomuser.me/api/portraits/men/26.jpg",
   },
   {
     testimonial:
-      "He has always been eager to learn more and to explore new technologies and methodologies,taking initiative to read and research on his own, which is a clear indication of his passion for the field. ",
-    name: "Simon Loh",
-    designation: "Dean School Of Computing Crescendo International College",
-    company: "",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I'm seeking opportunities in the UK tech industry to immerse myself in a vibrant, innovative environment and collaborate with diverse, talented professionals. Feel free to reach out: sparkyingjie@gmail.com",
+    name: "Future!",
+    designation: "Future",
+    company: "Us!",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
 ];
 
 const projects = [
+  {
+    name: "Things To Do - Viator Affiliate API Integration",
+    description:
+      "Developed a Viator affiliate API integration to fetch and display global tour booking details, enabling users to explore and book tours worldwide.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: viator,
+    eye_link: "https://viatorjerry.vercel.app/",
+  },
   {
     name: "www.diy.org",
     description:
@@ -296,7 +322,7 @@ const projects = [
     eye_link: "https://www.diy.org",
   },
   {
-    name: "Blippi Curiosity Image Recognition Mobile App",
+    name: "Netflix Series Blippi Curiosity Image Recognition Mobile App",
     description:
       "Took ownership of completing frontend of image recognition object-hunting game for Netflix series Blippi Entertainment. Shipped mobile app with progressive web app Capacitor for Android and IOS.",
     tags: [

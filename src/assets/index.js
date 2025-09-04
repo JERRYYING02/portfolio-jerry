@@ -7,7 +7,7 @@ import github from "./github.png";
 import eye from "./eye.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import viator from "./viator.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -56,6 +56,7 @@ export {
   blippi,
   pedia,
   diy,
+  viator,
   makethedotshow1,
   makethedot,
   goldsmiths,
