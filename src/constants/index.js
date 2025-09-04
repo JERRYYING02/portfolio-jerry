@@ -293,7 +293,7 @@ const projects = [
     eye_link: "https://viatorjerry.vercel.app/",
   },
   {
-    name: "www.diy.org",
+    name: "Social Media Learning For Kids - www.diy.org",
     description:
       "Built and maintained kid's educational platform with 5,000+ courses and DIY learning activities and integrated social learning components in Next,js,React, Typescript, TailwindCSS, GraphQL (resulting current 35k+ organic traffic SEO and initiated free trial and annual revenue) Optimized SQL query development, database modeling, and setup cron jobs, indexing. Written automated end-to-end test cases using Cypress, Github Actions to validate user journeys and critical workflows",
     tags: [
